@@ -1,0 +1,7 @@
+Intitialization:
+
+1. Created a VM Rocky Linux Server.  Allocated 3 proccessors,
+      8 GB RAMM, and 33 GB storage.
+2. Downloaded Rocky Linux ISO.
+3. Booted up the VM and installed the OS. 
+4. Removed the ISO path and rebooted the VM.
