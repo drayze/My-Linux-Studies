@@ -3,7 +3,7 @@ Initialization:
 1. Installed VirtualBox to run the VM on. 
 2. Downloaded Ubuntu ISO image for Ubuntu 26.04 LTS for VM OS.
 3. Setup virtual environment by creating a virtual machine. 
-      Allocating 16 Gs of RAM, 4 CPUs, and 120 GBs of storage.
+      Allocating 8 GBs of RAM, 2 processors, and 120 GBs of storage.
       Networked with the host over a bridged adapter.
 4. Pointed the VM to the ISO image for boot and enabled UEFI.
 5. Booted up VM and installed Ubuntu OS.  Setup user account with root privileges.

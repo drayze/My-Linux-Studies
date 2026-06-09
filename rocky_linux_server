@@ -1,7 +1,14 @@
-Intitialization:
+Initialization:
 
-1. Created a VM Rocky Linux Server.  Allocated 3 proccessors,
+1. Created a VM Rocky Linux Server.  Allocated 3 processors,
       8 GB RAMM, and 33 GB storage.
-2. Downloaded Rocky Linux ISO.
-3. Booted up the VM and installed the OS. 
-4. Removed the ISO path and rebooted the VM.
+2. Downloaded Rocky Linux 10 ISO.
+3. Pointed the VM to the ISO, booted up the VM, and installed the OS. 
+4. Rebooted the VM and removed the ISO path. 
+      Successfully booted server from newly installed OS.
+5. Logged in and added several directories and files.
+6. Ran 'ip addr' command to retrieve the IPv4 address.  Then used
+      the IPv4 from PowerShell on the Host to establish a remote 
+      connection. 
+7. Then pinged the Ubuntu Server from the Rocky Server, using the SSH 
+      connection.
