@@ -12,4 +12,6 @@ Function Test:
         subdirectory.  Then created an empty file called notes.txt
         inside of the subdirectory.
 7. Changed present working directory back to home/user/ and created 
-        a symbolic link pointing to notes.txt.   
+        a symbolic link pointing to notes.txt.  
+8. Created a hard link to to an existing file, and added some content.
+9. Ran 'cat' on the original file to test the hard link and its new content. 
