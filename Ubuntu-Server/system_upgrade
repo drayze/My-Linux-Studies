@@ -1,0 +1,25 @@
+System Upgrade and Setup:
+
+1.  Setup a root account and secured it.
+2.  From the root account, installed acl.
+3.  Ran 'ip addr' and retrieved the IPv4 address. Then opened PowerShell
+        on the Host machine and established a remote connection.  So, 
+        I can act as root on the server and the user from the remote
+        terminal.
+4.  Created a file in the user directory from root, and added some text.
+5.  From user ran 'ls -ltr' to check that the file was created. Then ran 
+        'cat' for the file to read the content. Verified the content was present.
+6.  From user attemted to add another line of text and received 'Operation
+        not permitted' message.  This was expected.
+7.  From root ran 'setfacl -m u:username:rw path/to/file' command to give read
+        and write permissions to the user.
+8.  Returned to the user ternimal and attempted to added text to the file again.
+        Command was executed without issue.  Ran 'cat' on the file and verified
+        the added text was present.
+9.  From root checked for upgradable system files, and found 17.
+10. Ran 'apt install upgrades' to install all upgrades to the system files. 
+11. As root created another file with some text in the user directory.
+12. As the user verified the file and content were present and attempted to add
+        more content and was denied.
+13. Ran 'sudo setfacl -m u:username:rw file'.
+14. Then verified that the command worked by added more text to the file.
