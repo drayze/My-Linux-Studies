@@ -1,0 +1,15 @@
+Tested Network:
+
+1. Using a laptop over WiFi. 
+2. Opened PowerShell and ran 'SSH user@IPv4' to connect to the Ubuntu server.
+3. Successfully connected to the server, indicating that the network connection is working properly.
+4. Became root from the remote terminal, and initialized a shutdown. Verified from both terminals
+        the shutdown process is started.
+5. Then cancelled the shutdown from the remote terminal. Verified messages from both terminals 
+        that the shutdown process is cancelled.
+6. Became user from the remote terminal, and added text to three files in the home directory. 
+        Verified the text is added to the files from both terminals.
+7. Became root from the remote terminal, and initialized a shutdown again. 
+        Verified from both terminals the shutdown process is started.
+8. Observed the shutdown process from both terminals, and verified that the server is shut down 
+        successfully.

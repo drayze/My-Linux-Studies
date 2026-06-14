@@ -4,10 +4,10 @@ Function Test:
 2. To these directories, I added several files.
 3. Employed the sudo command, to changed my password. To remove
         a typo.
-4. Enabled SSH.  Then retreived the IPv4 address.  
+4. Enabled SSH.  Then retrieved the IPv4 address.  
 5. Returned to the host and opened a terminal.  Using PowerShell
         with the SSH username@theIPv4 command, established a remote
-        connetion.  Upon entering the password, gained full access.
+        connection.  Upon entering the password, gained full access.
 6. From the SSH connection, created another directory with a 
         subdirectory.  Then created an empty file called notes.txt
         inside of the subdirectory.

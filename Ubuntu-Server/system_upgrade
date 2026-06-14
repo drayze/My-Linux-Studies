@@ -9,11 +9,11 @@ System Upgrade and Setup:
 4.  Created a file in the user directory from root, and added some text.
 5.  From user ran 'ls -ltr' to check that the file was created. Then ran 
         'cat' for the file to read the content. Verified the content was present.
-6.  From user attemted to add another line of text and received 'Operation
+6.  From user attempted to add another line of text and received 'Operation
         not permitted' message.  This was expected.
 7.  From root ran 'setfacl -m u:username:rw path/to/file' command to give read
         and write permissions to the user.
-8.  Returned to the user ternimal and attempted to added text to the file again.
+8.  Returned to the user terminal and attempted to added text to the file again.
         Command was executed without issue.  Ran 'cat' on the file and verified
         the added text was present.
 9.  From root checked for upgradable system files, and found 17.

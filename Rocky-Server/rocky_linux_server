@@ -1,7 +1,7 @@
 Initialization:
 
 1. Created a VM Rocky Linux Server.  Allocated 3 processors,
-      8 GB RAMM, and 33 GB storage.
+      8 GB RAM, and 33 GB storage.
 2. Downloaded Rocky Linux 10 ISO.
 3. Pointed the VM to the ISO, booted up the VM, and installed the OS. 
 4. Rebooted the VM and removed the ISO path. 
