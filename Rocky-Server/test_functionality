@@ -1,6 +1,7 @@
 Functionality testing:
 
-1. Added a directory with a subdirectory, and added a file to this subdirectory.
+1. From the remote terminal added a directory with a subdirectory, and added 
+        a file to this subdirectory.
 2. Created a symbolic link from my user directory pointing to the file in the 
         in the subdirectory.
 3. Created a file in another directory and created a hard link in the user 
