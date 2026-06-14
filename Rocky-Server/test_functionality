@@ -1,0 +1,28 @@
+Functionality testing:
+
+1. To test the functionality, I added several directories.  
+2. To these directories, I added several files.
+3. Ran 'ip addr' command to retrieve the IPv4 address.  Then Returned
+        to the Host machine and opened PowerShell and established a remote
+        connection using the 'SSH username@IPv4' command and entered the password.
+4. From the remote connection, I pinged the Ubuntu Server to verify connectivity.
+5. Added a directory with a subdirectory, and added a file to this subdirectory.
+6. Created a symbolic link from my user directory pointing to the file in the 
+        in the subdirectory.
+7. Created a file in another directory and created a hard link in the user 
+        directory for this new file.
+8. Added content to the file and verified the hard link reflected the changed content.
+9. Returned to the server terminal and became root. Then added a file to one of
+        the user directories. Then used 'setfacl' command to add read and write 
+        permissions for my user account.  Used 'getfacl' command to verify the 
+        changes were made.
+10. Returned to remote terminal, and used 'echo "some text" >> fileName' to add
+        content to the file.
+11. Returned to the server terminal and verified the changes were made in the
+        file. Then added some more text in the file.
+12. From the remote terminal, verified that those changes were retrievable from
+        from ACL user account.
+13. From the server initiated the shutdown and monitored the remote terminal.
+        Verified the message was sent from root of a scheduled shutdown.  Then 
+        received a 'connection closed' message. At which time PowerShell returned to 
+        its regular state on the Host OS.  
